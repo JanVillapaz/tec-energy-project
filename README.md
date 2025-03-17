@@ -81,4 +81,4 @@ Developed by Jan Eunice Villapaz
 - [Making Python loggers output all messages to stdout in addition to logfile](https://stackoverflow.com/questions/14058453/making-python-loggers-output-all-messages-to-stdout-in-addition-to-log-file)
 - [How to Download Files From URLs With Python](https://realpython.com/python-download-file-from-url/#:~:text=To%20download%20a%20file%20using,the%20URL%20or%20query%20parameters.)
 - [PostgreSQL Python: Connect to PostgreSQL Database Server](https://neon.tech/postgresql/postgresql-python/connect)
--[Change a column type in a DataFrame in Python Pandas](https://sentry.io/answers/change-a-column-type-in-a-dataframe-in-python-pandas/#:~:text=If%20we%20want%20to%20convert%20a%20column%20to%20a%20sensible,should%20use%20the%20convert_dtypes%20method.)
+- [Change a column type in a DataFrame in Python Pandas](https://sentry.io/answers/change-a-column-type-in-a-dataframe-in-python-pandas/#:~:text=If%20we%20want%20to%20convert%20a%20column%20to%20a%20sensible,should%20use%20the%20convert_dtypes%20method.)
