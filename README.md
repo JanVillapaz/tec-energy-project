@@ -33,6 +33,17 @@ Run the main script
 python main.py
 ```
 
+## Deliverables
+-[x] DDL of a database table(s) where the data will be inserted. (Postgres SQL preferred, but any relational DB is okay)
+
+-[x] The necessary query(s) to insert this data.
+
+-[x] The code to facilitate the downloading, validation, and insertion of the data. C# and Python are our preferred languages but feel free to use something else if you would feel more comfortable.
+
+-[x] Instructions on how to run the code in the form of a readme.
+
+-[x] The deliverables should all be uploaded to a public git repository (like GitHub)
+
 ## Author
 Developed by Jan Eunice Villapaz
 
