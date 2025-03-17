@@ -12,15 +12,37 @@ This take home project downloads gas shipment data from [Energy Transfer](https:
 
 ### 1. Clone repository:
 ```bash
-https://github.com/JanVillapaz/tec-energy-project.git
+git clone https://github.com/JanVillapaz/tec-energy-project.git
+
 ```
 
+### Create a Virtual Environment
+```sh
+python -m venv venv
+```
+
+#### Activate it
+
+Mac / Linux / Git Bash
+```sh
+source venv/Script/activate
+```
+
+#### If successful
+`(venv)` will appear on CMD/GitBash/Console/PowerShell
+
 ### 2. Install required packages: 
+
+```sh
+cd tec-energy-project
+```
+
+### 3. Install dependensies: 
 ```bash
 pip install -r /path/to/requirements.txt
 ```
 
-### 3. Configure DB
+### 4. Configure DB
 - Create Postgres DB named `natural_gas_db`.
 - Update the database config in `main.py` with your credentials.
 
