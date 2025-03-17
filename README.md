@@ -50,7 +50,7 @@ pip install -r /path/to/requirements.txt
 ```
 
 ### 5. Configure DB
-- Create Postgres DB named `natural_gas_db`.
+- Create Postgres DB named `natural_gas_db`. This can easily be done on PgAdmin
 - Update the database config in `main.py` with your credentials.
 
 ## Database Schema
