@@ -16,7 +16,13 @@ git clone https://github.com/JanVillapaz/tec-energy-project.git
 
 ```
 
-### 2. Create a Virtual Environment
+### 2. Change directory (to the clone repo)
+
+```sh
+cd tec-energy-project
+```
+
+### 3. Create a Virtual Environment
 This is to keep the dependencies isolated
 ```sh
 python -m venv venv
@@ -24,12 +30,12 @@ python -m venv venv
 
 #### Activate it
 
-Windows
+- For Windows
 ```sh
 venv/scripts/activate
 ```
 
-Mac / Linux / Git Bash
+- For Mac / Linux / Git Bash
 ```sh
 source venv/Script/activate
 ```
@@ -37,11 +43,6 @@ source venv/Script/activate
 #### If successful
 `(venv)` will appear on CMD / GitBash / Console / PowerShell
 
-### 3. Install required packages: 
-
-```sh
-cd tec-energy-project
-```
 
 ### 4. Install dependensies: 
 ```bash
