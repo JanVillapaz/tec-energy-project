@@ -1,3 +1,20 @@
-CREATE TABLE gas_shipment (
-
+CREATE TABLE IF NOT EXISTS gas_shipments ( 
+    id SERIAL PRIMARY KEY, 
+    loc INT,
+    loc_zn VARCHAR(50),
+    loc_name VARCHAR(50),
+    loc_purp_desc VARCHAR(2) CHECK (loc_purp_desc IN ('M2', 'MQ')),
+    loc_qti VARCHAR(3) CHECK (loc_qti IN ('RPQ', 'DPQ')),
+    flow_ind CHAR(1) CHECK (flow_ind IN ('R', 'D')),
+    dc INTEGER,
+    opc INTEGER,
+    tsq INTEGER,
+    oac INTEGER,
+    it BOOLEAN,
+    auth_overrun_ind BOOLEAN,
+    nom_cap_exceed_ind BOOLEAN,
+    all_qty_avail BOOLEAN,
+    qty_reason VARCHAR(200),
+    gas_day DATE NOT NULL,
+    cycle VARCHAR(2) CHECK (cycle IN ('Timely', 'Evening', 'Intraday 1','Intraday 2', 'Intraday 3', 'Final'))
 );
