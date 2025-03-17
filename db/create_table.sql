@@ -16,5 +16,5 @@ CREATE TABLE IF NOT EXISTS gas_shipments (
     all_qty_avail BOOLEAN,
     qty_reason VARCHAR(200),
     gas_day DATE NOT NULL,
-    cycle VARCHAR(2) CHECK (cycle IN ('Timely', 'Evening', 'Intraday 1','Intraday 2', 'Intraday 3', 'Final'))
+    cycle VARCHAR(20) CHECK (cycle IN ('Timely', 'Evening', 'Intraday 1','Intraday 2', 'Intraday 3', 'Final'))
 );
