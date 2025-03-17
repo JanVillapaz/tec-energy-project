@@ -16,12 +16,18 @@ git clone https://github.com/JanVillapaz/tec-energy-project.git
 
 ```
 
-### Create a Virtual Environment
+### 2. Create a Virtual Environment
+This is to keep the dependencies isolated
 ```sh
 python -m venv venv
 ```
 
 #### Activate it
+
+Windows
+```sh
+venv/scripts/activate
+```
 
 Mac / Linux / Git Bash
 ```sh
@@ -29,20 +35,20 @@ source venv/Script/activate
 ```
 
 #### If successful
-`(venv)` will appear on CMD/GitBash/Console/PowerShell
+`(venv)` will appear on CMD / GitBash / Console / PowerShell
 
-### 2. Install required packages: 
+### 3. Install required packages: 
 
 ```sh
 cd tec-energy-project
 ```
 
-### 3. Install dependensies: 
+### 4. Install dependensies: 
 ```bash
 pip install -r /path/to/requirements.txt
 ```
 
-### 4. Configure DB
+### 5. Configure DB
 - Create Postgres DB named `natural_gas_db`.
 - Update the database config in `main.py` with your credentials.
 
@@ -73,3 +79,5 @@ Developed by Jan Eunice Villapaz
 - [Old Python School Project](https://github.com/JanVillapaz/INF5190-AUT2021/blob/main/README.md)
 - [Making Python loggers output all messages to stdout in addition to logfile](https://stackoverflow.com/questions/14058453/making-python-loggers-output-all-messages-to-stdout-in-addition-to-log-file)
 - [How to Download Files From URLs With Python](https://realpython.com/python-download-file-from-url/#:~:text=To%20download%20a%20file%20using,the%20URL%20or%20query%20parameters.)
+- [PostgreSQL Python: Connect to PostgreSQL Database Server](https://neon.tech/postgresql/postgresql-python/connect)
+-[Change a column type in a DataFrame in Python Pandas](https://sentry.io/answers/change-a-column-type-in-a-dataframe-in-python-pandas/#:~:text=If%20we%20want%20to%20convert%20a%20column%20to%20a%20sensible,should%20use%20the%20convert_dtypes%20method.)
